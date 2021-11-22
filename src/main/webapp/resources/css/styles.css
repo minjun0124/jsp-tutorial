@@ -1,0 +1,130 @@
+/*-----------------font--------------------*/
+
+.fw-bold {
+    font-weight: 700 !important
+}
+
+.text-white-custom {
+    color: rgba(255, 255, 255, .5) !important
+}
+
+/*-----------------------------------------*/
+
+div.content-body {
+    background-color: #aabbcc;
+    padding-top: 3.5rem;
+    /*padding-bottom: 1.5rem;*/
+    height: 91%;
+}
+
+div.seoul-map {
+    width: 75%;
+    height: 98.6%;
+    float: left;
+}
+
+div.search-and-result {
+    width: 25%;
+    height: 99%;
+    float: right;
+}
+
+section.search {
+    position: relative;
+    height: 65%;
+}
+
+section.result {
+    position: relative;
+    height: 34%;
+}
+
+button.btn-search {
+    padding: 5px;
+    font-size: small;
+}
+
+/*---------------- scrollbar ---------------*/
+
+.scrollbar {
+    height: 90%;
+    background: #F5F5F5;
+    overflow-y: scroll;
+}
+
+.force-overflow {
+    min-height: 450px;
+}
+
+#style-2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar {
+    width: 9px;
+    background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #787878;
+}
+
+/*----------------------------------------------*/
+
+/* ==========================================================================
+   #CARD
+   ========================================================================== */
+.card {
+    height: 100%;
+    background: #fff;
+}
+
+.card-2 {
+    /*background: transparent;*/
+    margin: 5px;
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-2 .card-body {
+    background: #fff;
+}
+
+
+/*----------  Footer  ----------*/
+
+footer {
+    width: 100%;
+    height: 9%; /* footer의 높이 */
+    position: absolute;
+    left: 0;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+footer a:hover, footer a:active, footer a:focus {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: underline;
+}
+
+/*------------------------------*/
+
+/*---------- colors -------------*/
+
+.bg-black {
+    background-color: #000 !important;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+/*------------------------------*/
